@@ -7,7 +7,7 @@ const app = express()
 
 
 mongoose.set("strictQuery", true);
-mongoose.connect('mongodb://127.0.0.1:27017/B2bDB')
+mongoose.connect('mongodb+srv://Login_and_Signup:Iamphenomenol1@cluster0.hg08l0b.mongodb.net/?retryWrites=true&w=majority')
 
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({ extended: true }))
